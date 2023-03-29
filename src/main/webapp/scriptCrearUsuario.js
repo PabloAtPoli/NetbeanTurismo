@@ -1,4 +1,4 @@
-
+/* Blblala */
 /* Accede a la referencia (handle) para los cuadros de texto */
 var nombreUsuario = document.getElementById("nombreUsuario");
 var password = document.getElementById("password");
