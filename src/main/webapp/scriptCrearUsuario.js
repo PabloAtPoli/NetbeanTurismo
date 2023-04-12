@@ -1,4 +1,3 @@
-/* Blblala */
 /* Accede a la referencia (handle) para los cuadros de texto */
 var nombreUsuario = document.getElementById("nombreUsuario");
 var password = document.getElementById("password");
@@ -125,6 +124,7 @@ function mostrarPassword() {
     }
 }
 function mostrarRepitaPassword() {
+    // Toma una referencia al cuadro de texto con ID password
     var x = document.getElementById("repitaPassword");
     if (x.type === "password") {
         x.type = "text";
